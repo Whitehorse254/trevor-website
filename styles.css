@@ -1,0 +1,76 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212; /* Black background */
+  font-family: Arial, sans-serif;
+}
+
+/* Login container */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: #0d1b2a; /* Dark blue background */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.login-container h1 {
+  color: #22c55e; /* Green text */
+  margin-bottom: 1.5rem;
+}
+
+/* Form styling */
+.login-form .form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.login-form label {
+  display: block;
+  color: #ffffff; /* White text */
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  background-color: #1b263b; /* Slightly lighter dark blue */
+  border: none;
+  border-radius: 4px;
+  color: #ffffff; /* White text */
+}
+
+.login-form input::placeholder {
+  color: #8c8c8c; /* Light gray placeholder */
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #ffffff; /* White text */
+  background-color: #22c55e; /* Green background */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #1aa147; /* Darker green on hover */
+}
